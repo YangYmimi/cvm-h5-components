@@ -57,7 +57,14 @@
     ]
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": false,
+    "printWidth": 120,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
+    "semi": false,
+    "bracketSpacing": true,
+    "endOfLine": "auto",
+    "quoteProps": "as-needed"
   },
   "browserslist": [
     "Android >= 4.0",
