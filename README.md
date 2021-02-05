@@ -1,13 +1,24 @@
-# CVM Components
+# SurveyUI
 
-> 基于 vant 的手机端题型组件的二次封装
+> 基于 vant 二次封装的手机端题型组件
 
-### 当前已有组件
+### 题型组件
 
-#### 题型组件
+#### 选择题
 
-* [ ] nps 题组件
+* [ ] 单选题组件（SingleSelect）
+* [ ] 多选题组件（MultiSelect）
+* [ ] 下拉题组件（DropDownSelect）
 
-#### 抽奖组件
+#### 填空题
 
-* [ ] 大转盘抽奖组件
+* [ ] 填空题组件（Input）
+* [ ] 多项填空题组件（MultiInput）
+
+#### 打分排序
+
+* [ ] 打分题组件（Score）
+* [ ] 评价题组件（Evaluation）
+* [ ] NPS题组件（Nps）
+* [ ] 排序题组件（Sort）
+* [ ] 比重题组件（Proportion）

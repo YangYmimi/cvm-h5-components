@@ -1,8 +1,8 @@
 {
-  "name": "cvm-h5-components",
+  "name": "survey-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/cvm-components-h5.js",
+  "main": "lib/survey-ui.js",
   "style": "lib/index.css",
   "files": [
     "lib",
@@ -17,7 +17,7 @@
     "test:coverage": "open test/coverage/index.html",
     "build-site": "vant-cli build-site && gh-pages -d site"
   },
-  "author": "YangZheng",
+  "author": "",
   "license": "MIT",
   "husky": {
     "hooks": {
@@ -26,24 +26,18 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,js,jsx,vue}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{vue,css,less,scss}": [
-      "stylelint --fix",
-      "git add"
-    ]
+    "*.{ts,tsx,js,jsx,vue}": "eslint --fix",
+    "*.{vue,css,less,scss}": "stylelint --fix"
   },
   "peerDependencies": {
-    "vue": "^2.6.12",
-    "vue-template-compiler": "^2.6.12"
+    "vue": "^3.0.0",
+    "vant": "^3.0.0"
   },
   "devDependencies": {
-    "@vant/cli": "^2.6.1",
-    "babel-plugin-import": "^1.13.1",
-    "vue": "^2.6.12",
-    "vue-template-compiler": "^2.6.12"
+    "@vant/cli": "^3.0.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-plugin-import": "^1.13.0",
+    "vue": "^3.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -57,20 +51,24 @@
     ]
   },
   "prettier": {
-    "singleQuote": false,
     "printWidth": 120,
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": false,
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
     "trailingComma": "none",
     "arrowParens": "avoid",
-    "semi": false,
     "bracketSpacing": true,
-    "endOfLine": "auto",
-    "quoteProps": "as-needed"
+    "requirePragma": false,
+    "htmlWhitespaceSensitivity": "css",
+    "endOfLine": "lf"
   },
   "browserslist": [
     "Android >= 4.0",
     "iOS >= 8"
   ],
   "dependencies": {
-    "vant": "^2.10.10"
+    "vant": "^3.0.6"
   }
 }

@@ -4,8 +4,8 @@
 
 ```bash
 # 通过 npm 安装
-npm i mm-cvm -S
+npm i survey-ui -S
 
 # 通过 yarn 安装
-yarn add mm-cvm
+yarn add survey-ui
 ```

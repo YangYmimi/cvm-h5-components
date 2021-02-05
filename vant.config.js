@@ -1,16 +1,17 @@
 module.exports = {
-  name: "mm-cvm",
+  name: "SurveyUI",
   build: {
     css: {
       preprocessor: "less"
     },
     site: {
-      publicPath: "/mm-cvm/"
+      publicPath: "/survey-h5-components/"
     }
   },
   site: {
-    title: "基于 vant-ui 的问卷组件库",
-    logo: "",
+    title: "SurveyUI",
+    description: "移动端题问卷题型组件库",
+    logo: "https://v3.cn.vuejs.org/logo.png",
     nav: [
       {
         title: "开发指南",
@@ -26,32 +27,14 @@ module.exports = {
         ]
       },
       {
-        title: "基础组件",
-        items: [
-          {
-            path: "input",
-            title: "文本输入"
-          }
-        ]
-      },
-      {
         title: "题型组件",
         items: [
           {
-            path: "nps",
-            title: "nps 题"
-          }
-        ]
-      },
-      {
-        title: "抽奖组件",
-        items: [
-          {
-            path: "turntable",
-            title: "抽奖大转盘"
+            path: "single-select",
+            title: "SuSingleSelect 单选题"
           }
         ]
       }
     ]
   }
-}
+};

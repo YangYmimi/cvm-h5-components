@@ -2,4 +2,10 @@
 
 ### 关于
 
-基于 [vant-ui](https://youzan.github.io/vant/#/zh-CN/home) 的移动端组件库
+这是一段组件库的介绍
+
+### 特性
+
+- 特性一
+- 特性二
+- 特性三
