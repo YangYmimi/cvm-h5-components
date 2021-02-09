@@ -5,7 +5,7 @@ module.exports = {
       preprocessor: "less"
     },
     site: {
-      publicPath: "/survey-h5-components/"
+      publicPath: "/survey-ui/"
     }
   },
   site: {
@@ -30,8 +30,8 @@ module.exports = {
         title: "题型组件",
         items: [
           {
-            path: "single-select",
-            title: "SuSingleSelect 单选题"
+            path: "select",
+            title: "SvSelect 单选/多选题"
           }
         ]
       }

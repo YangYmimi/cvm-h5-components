@@ -69,6 +69,6 @@
     "iOS >= 8"
   ],
   "dependencies": {
-    "vant": "^3.0.6"
+    "vant": "^3.0.0"
   }
 }

@@ -1,5 +1,5 @@
 <template>
   <demo-block title="基础用法">
-    <su-single-select></su-single-select>
+    <sv-select></sv-select>
   </demo-block>
 </template>
